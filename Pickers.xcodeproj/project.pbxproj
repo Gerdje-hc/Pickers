@@ -15,6 +15,8 @@
 		2F3C55FA1F98A19B00757339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C55F81F98A19B00757339 /* LaunchScreen.storyboard */; };
 		2F3C56051F98A19B00757339 /* PickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C56041F98A19B00757339 /* PickersTests.swift */; };
 		2F3C56101F98A19B00757339 /* PickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C560F1F98A19B00757339 /* PickersUITests.swift */; };
+		2F3C56201F98C27400757339 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C561F1F98C27400757339 /* ThirdViewController.swift */; };
+		2F3C56241F98D9CC00757339 /* shows-characters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C56231F98D9CC00757339 /* shows-characters.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2F3C560B1F98A19B00757339 /* PickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3C560F1F98A19B00757339 /* PickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersUITests.swift; sourceTree = "<group>"; };
 		2F3C56111F98A19B00757339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3C561F1F98C27400757339 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2F3C56231F98D9CC00757339 /* shows-characters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "shows-characters.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		2F3C55EC1F98A19B00757339 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				2F3C56231F98D9CC00757339 /* shows-characters.plist */,
 				2F3C55ED1F98A19B00757339 /* AppDelegate.swift */,
 				2F3C55EF1F98A19B00757339 /* FirstViewController.swift */,
 				2F3C55F11F98A19B00757339 /* SecondViewController.swift */,
+				2F3C561F1F98C27400757339 /* ThirdViewController.swift */,
 				2F3C55F31F98A19B00757339 /* Main.storyboard */,
 				2F3C55F61F98A19B00757339 /* Assets.xcassets */,
 				2F3C55F81F98A19B00757339 /* LaunchScreen.storyboard */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F3C55FA1F98A19B00757339 /* LaunchScreen.storyboard in Resources */,
+				2F3C56241F98D9CC00757339 /* shows-characters.plist in Resources */,
 				2F3C55F71F98A19B00757339 /* Assets.xcassets in Resources */,
 				2F3C55F51F98A19B00757339 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +271,7 @@
 			files = (
 				2F3C55F21F98A19B00757339 /* SecondViewController.swift in Sources */,
 				2F3C55EE1F98A19B00757339 /* AppDelegate.swift in Sources */,
+				2F3C56201F98C27400757339 /* ThirdViewController.swift in Sources */,
 				2F3C55F01F98A19B00757339 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +441,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSJ9VWJA4N;
 				INFOPLIST_FILE = Pickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.training.Pickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -448,11 +457,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSJ9VWJA4N;
 				INFOPLIST_FILE = Pickers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.training.Pickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

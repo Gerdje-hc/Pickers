@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../Desktop/IOS - Tom Eeraerts/Resources for Labs/Chapter 10/Lab 17/shows-characters.plist">
+   </FileRef>
+   <FileRef
       location = "self:Pickers.xcodeproj">
    </FileRef>
 </Workspace>
